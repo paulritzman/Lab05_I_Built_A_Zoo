@@ -6,7 +6,7 @@ namespace BuildAZoo.Classes
 {
     public class Batman : Bat
     {
-        public override string BodyCovering { get; set; } = "cape";
+        public override string BodyCovering { get; set; } = "a cape";
 
         public override string Diet { get; set; } = "Justice";
 
