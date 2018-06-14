@@ -7,18 +7,22 @@ C# Console Application which builds out the hierarchical class structure of a zo
 
 ## OOP Principles
 
-* Abstraction - Hides complexity from users and developers
-by limiting the visibility of methods and properties stored within parent Classes.
+### Abstraction 
+
+Abstractions hides complexity from users and developers by limiting
+the visibility of methods and properties stored within parent Classes.
 
 Examples:
- - With the MakeSound() method, created in the Animal Class, the inner workings of the method are hidden from
+- With the MakeSound() method, created in the Animal Class, the inner workings of the method are hidden from
 users and other developers. If called, the method will carry out it's implementation without needing to
 display unnecessary complexity.
 
 - The CrawlOutOfWall() method in the Bug Class can be defined to contain any functionality you would like,
 while hiding these details from others that would use this method.
 
-* Inheritence - Enables derived Classes to utilize properties and methods defined in parent Classes,
+### Inheritance 
+
+Inheritance Enables derived Classes to utilize properties and methods defined in parent Classes,
 reducing the amount of code duplication between Classes derived from a common parent.
 
 Examples:
@@ -29,8 +33,10 @@ also have the IsCreepyCrawly boolean set to true.
 - In the Bat Class, the interface "ICanFly" is set, where it is also inhereted by all Classes that derive
 from the Bat Class.
 
-* Polymorphism - The ability for derived Classes to override properties and methods defined in parent Classes,
-altering their functionality and implementation.
+### Polymorphism
+
+Polymorphism is the ability for derived Classes to override properties and methods
+defined in parent Classes, altering their functionality and implementation.
 
 Examples:
 - In the Batman Class, which inherits the "ICanFly" interface from the Bat Class, I am overriding the
@@ -39,7 +45,9 @@ interface to allow Batman objects to glide instead of fly.
 - Each of the concrete classes sets the "Diet" property for that specific Class. This overrides the property
 which is originally declared in the Animal Class.
 
-* Encapsulation - Causes a group of related Classes to act as a single unit. The properties and methods 
+### Encapsulation
+
+Encapsulation Causes a group of related Classes to act as a single unit. The properties and methods 
 from each Class is shared in the instantiated object.
 
 Examples:
