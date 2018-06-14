@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    abstract class Animal
+    public abstract class Animal
     {
         public abstract int NumberOfEyes { get; set; }
 
@@ -16,7 +16,7 @@ namespace BuildAZoo.Classes
 
         public virtual string Name { get; set; } = "Frank";
 
-        public abstract string Eat();
+        public abstract string Eat(string diet);
 
         public abstract string LookAround();
 
