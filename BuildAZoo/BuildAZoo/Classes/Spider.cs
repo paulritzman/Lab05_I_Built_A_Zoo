@@ -5,13 +5,17 @@ using BuildAZoo.Interfaces;
 
 namespace BuildAZoo.Classes
 {
-    public abstract class Spider : Bug, ICanFly
+    public abstract class Spider : Bug, ICanFly, IBeEvil
     {
         public override int NumberOfEyes { get; set; } = 8;
 
         public override bool IsCreepyCrawly { get; set; } = true;
 
         public string FlyingMethod { get; set; } = "silk";
+
+        public bool CausesNightmares { get; set; } = true;
+
+        public string PhobiaCaused { get; set } = "Arachnophobia";
 
         public override string Eat(string diet)
         {
