@@ -8,7 +8,7 @@ namespace BuildAZoo.Classes
     {
         public abstract bool IsCreepyCrawly { get; set; }
 
-        public abstract string CrawlOutOfWall { get; set; }
+        public abstract string CrawlOutOfWall();
 
         public override string LookAround()
         {
