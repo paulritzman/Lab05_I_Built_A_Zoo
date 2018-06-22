@@ -6,6 +6,7 @@ namespace BuildAZoo.Classes
 {
     public class HumpBack : Whale
     {
+        // Overrides Diet property from Animal
         public override string Diet { get; set; } = "krill";
     }
 }
