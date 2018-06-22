@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Interfaces
 {
-    interface ICanFly
+    public interface ICanFly
     {
         string FlyingMethod { get; set; }
 
