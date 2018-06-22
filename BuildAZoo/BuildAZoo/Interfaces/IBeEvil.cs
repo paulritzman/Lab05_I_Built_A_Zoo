@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Interfaces
 {
-    interface IBeEvil
+    public interface IBeEvil
     {
         Boolean CausesNightmares { get; set; }
 
