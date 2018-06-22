@@ -40,6 +40,5 @@ namespace Unit_Tests
 
             Assert.NotEqual(bruceWayne.HowIFly(), vampBat.HowIFly());
         }
-
     }
 }
